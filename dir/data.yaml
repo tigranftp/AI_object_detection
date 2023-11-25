@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 36
+names: ['AW cola', 'Beijing Beef', 'Chow Mein', 'Fried Rice', 'Hashbrown', 'Honey Walnut Shrimp', 'Kung Pao Chicken', 'String Bean Chicken Breast', 'Super Greens', 'The Original Orange Chicken', 'White Steamed Rice', 'black pepper rice bowl', 'burger', 'carrot_eggs', 'cheese burger', 'chicken waffle', 'chicken_nuggets', 'chinese_cabbage', 'chinese_sausage', 'crispy corn', 'curry', 'french fries', 'fried chicken', 'fried_chicken', 'fried_dumplings', 'fried_eggs', 'mango chicken pocket', 'mozza burger', 'mung_bean_sprouts', 'nugget', 'perkedel', 'rice', 'sprite', 'tostitos cheese dip sauce', 'triangle_hash_brown', 'water_spinach']
+
+roboflow:
+  workspace: works-ie5h2
+  project: food-detection-2oatt
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/works-ie5h2/food-detection-2oatt/dataset/1
