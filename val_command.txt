@@ -1,0 +1,1 @@
+docker run -it --gpus all --shm-size 8G --rm --name my-running-script -v "<ДИРЕКТОРИЯ>":/usr/src/myapp -w /usr/src/myapp python_env5 python detect.py
